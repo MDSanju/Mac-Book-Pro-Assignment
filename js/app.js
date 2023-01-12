@@ -1,6 +1,7 @@
 // extra features cost add
 function extraFeaturesCost(extraFeatures, featureExtraCost) {
     const featuresCost = document.getElementById(extraFeatures);
+    console.log(featuresCost);
     featuresCost.innerText = featureExtraCost;
 }
 
